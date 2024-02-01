@@ -1,0 +1,10 @@
+transformers
+torch
+seqeval
+pytorch-crf
+tensorflow
+sentencepiece
+tensorboard
+numpy
+tqdm
+scikit-learn
