@@ -1,6 +1,8 @@
 # JointBERT: Joint intent detection and slot filling
 
- 
+## Kiến trúc mô hình 
+![image](https://github.com/quanganh2002/Joint_Bert/assets/138965151/ca0de96c-c8e9-44c9-ad7c-3d4c42b2cad1)
+
 
 ## Cài đặt
 - Phiên bản Python >= 3.6
