@@ -3,6 +3,17 @@
 ## Kiến trúc mô hình 
 ![image](https://github.com/quanganh2002/Joint_Bert/assets/138965151/ca0de96c-c8e9-44c9-ad7c-3d4c42b2cad1)
 
+## Dữ liệu
+![image](https://github.com/quanganh2002/Joint_Bert/assets/138965151/0947e3a3-e924-469b-b5d1-83e590bfd88b)
+Dữ liệu gồm các câu lệnh người dùng với 10 nhãn intent và 23 nhãn slot theo cấu trúc
+- seq.in: chứa các câu cần phân loại intent và slot
+- label: chứa các nhãn intent cho từng câu trong seq.in
+- seq.out: chứa các nhãn slot cho từng từ của mỗi câu trong seq.in
+- intent_label.txt: là tập từ điển cho các nhãn intent
+- slot_label.txt: là tập từ điển cho các nhãn slot
+
+![image](https://github.com/quanganh2002/Joint_Bert/assets/138965151/d08aa159-ef4c-400e-a360-329cb01494a9)
+![image](https://github.com/quanganh2002/Joint_Bert/assets/138965151/71b1fc0d-3bdd-4f71-9c27-f0a8b4dd1976)
 
 ## Cài đặt
 - Phiên bản Python >= 3.6
